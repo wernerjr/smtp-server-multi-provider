@@ -1,0 +1,22 @@
+{
+  "brevo": {
+    "daily": 2,
+    "monthly": 2,
+    "lastReset": "2025-04-03T17:49:07.847Z"
+  },
+  "mailjet": {
+    "daily": 0,
+    "monthly": 0,
+    "lastReset": "2025-04-03T17:49:07.847Z"
+  },
+  "smtp2go": {
+    "daily": 0,
+    "monthly": 0,
+    "lastReset": "2025-04-03T17:49:07.847Z"
+  },
+  "mailersend": {
+    "daily": 0,
+    "monthly": 0,
+    "lastReset": "2025-04-03T17:49:07.847Z"
+  }
+}

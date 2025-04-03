@@ -1,0 +1,21 @@
+{
+  "name": "smtp-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mailersend": "^2.5.0",
+    "mailparser": "^3.7.2",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.10.0",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "smtp-server": "^3.13.6"
+  }
+}
