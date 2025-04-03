@@ -46,6 +46,6 @@ cron.schedule('0 0 * * *', () => {
 });
 
 // Inicia o servidor na porta 2525 (ou outra de sua escolha)
-server.listen(2525, () => {
+server.listen(443, () => {
   console.log('Servidor SMTP multi-provedor rodando na porta 2525');
 });

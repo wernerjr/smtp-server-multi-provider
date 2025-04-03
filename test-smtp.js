@@ -3,8 +3,8 @@ const nodemailer = require('nodemailer');
 async function testSMTP() {
   // Cria um objeto de transporte
   const transporter = nodemailer.createTransport({
-    host: 'localhost',
-    port: 2525,
+    host: 'smtp-server-multi-provider.onrender.com',
+    port: 443,
     secure: false, // true para 465, false para outras portas
     tls: {
       rejectUnauthorized: false // Necessário para testes locais
